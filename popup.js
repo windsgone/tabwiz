@@ -16,6 +16,12 @@ document.addEventListener("DOMContentLoaded", function () {
     // ...
   });
 
+  document.getElementById('clearBtn').addEventListener('click', function() {
+    document.getElementById('tabTitle').value = '';
+});
+
+
+
   renameForm.addEventListener("submit", function (e) {
     e.preventDefault();
     if (tabTitleInput.value) {
