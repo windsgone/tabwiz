@@ -6,13 +6,13 @@
     "default_locale": "en",
     "permissions": ["tabs", "scripting", "activeTab"],
     "action": {
-      "default_icon": "icon.png",
+      "default_icon": "icon/icon16.png",
       "default_popup": "popup.html"
     },
     "icons": {
-      "16": "icon.png",
-      "48": "icon.png",
-      "128": "icon.png"
+      "16": "icon/icon16.png",
+      "48": "icon/icon48.png",
+      "128": "icon/icon128.png"
     },
     "background": {
       "service_worker": "background.js"
